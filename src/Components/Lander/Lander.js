@@ -23,6 +23,12 @@ const Lander = () => {
         <div className="imgBox">
           <img src={girl} alt="" />
         </div>
+
+        <p>
+          "Improving the healthcare system of <br /> our community means making
+          patients' <br /> medical history available at all times, <br />{" "}
+          especially in case of emergencies."
+        </p>
       </div>
     </div>
   );

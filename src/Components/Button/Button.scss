@@ -1,0 +1,10 @@
+.app__button {
+  border: none;
+  padding: 0.5rem 2rem;
+  background: var(--green);
+  color: var(--white);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: var(--trans);
+}

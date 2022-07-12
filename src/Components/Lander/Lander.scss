@@ -1,0 +1,55 @@
+.home__lander {
+  padding: 10rem 10%;
+  transition: var(--trans);
+  position: relative;
+  background: var(--light);
+  color: var(--l__black);
+
+  height: 100vh;
+
+  .lander__description {
+    width: 50%;
+    color: var(--black);
+
+    h1 {
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+    }
+
+    p {
+      margin-bottom: 2rem;
+      width: 90%;
+    }
+  }
+
+  .landerImg {
+    position: absolute;
+    height: 50%;
+    width: 60%;
+    background: var(--white);
+    right: -10rem;
+    // transform: rotate(-25deg);
+    top: 22%;
+    border-radius: 200px 0 0 200px;
+    transition: var(--trans);
+    overflow: hidden;
+    padding: 1rem;
+
+    .imgBox {
+      height: 100%;
+      width: 300px;
+      background: var(--black);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

@@ -26,7 +26,7 @@ const Navbar = () => {
           <li>
             <NavLink to="/Testimonials">Testimonials</NavLink>
           </li>
-          <Button name="LogIn" />
+          <Button name="LogIn"  />
         </ul>
       </div>
     </div>

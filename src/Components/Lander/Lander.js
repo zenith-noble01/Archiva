@@ -9,10 +9,13 @@ const Lander = () => {
       <div className="lander__description">
         <h1>Take care of your Health Anytime Anywhere</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-          nostrum repudiandae architecto culpa facere! Numquam cum ab cumque
-          veniam asperiores omnis, non assumenda ipsum doloribus molestias velit
-          maxime reprehenderit natus.
+          We offers a convenient, reliable, simpler, and less costly way of
+          collecting, storing, retrieving, and processing patients data and
+          information in health care ecosystems. This paves the way for
+          improving poor development of research in health, poor management of
+          health information, non-informed decisions, and insufficient
+          dissemination of health information and research findings to all
+          health pyramidal levels.
         </p>
         <Button name="Try Now" />
       </div>

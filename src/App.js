@@ -1,7 +1,18 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./Components";
-import { Home, Login, DashBoard, DashLanding, Pharmacy } from "./pages";
+import {
+  Home,
+  Login,
+  DashBoard,
+  DashLanding,
+  Laboratory,
+  Appointment,
+  Doctors,
+  History,
+  Messages,
+  Settings,
+} from "./pages";
 
 const App = () => {
   const location = useLocation();
@@ -15,7 +26,12 @@ const App = () => {
         <Route path="login" element={<Login />} />
         <Route path="dashBoard" element={<DashBoard />}>
           <Route index element={<DashLanding />} />
-          <Route path="pharmacy" element={<Pharmacy />} />
+          <Route path="laboratory" element={<Laboratory />} />
+          <Route path="appointments" element={<Appointment />} />
+          <Route path="doctors" element={<Doctors />} />
+          <Route path="history" element={<History />} />
+          <Route path="messages" element={<Messages />} />
+          <Route path="settings" element={<Settings />} />
         </Route>
       </Routes>
     </div>

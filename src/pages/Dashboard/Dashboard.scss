@@ -3,6 +3,7 @@
   background: var(--dark__sm);
   min-width: 100vw;
   min-height: 100vh;
+  z-index: 9999;
 
   .dashBoard__wrapper {
     width: calc(100% - 20rem);

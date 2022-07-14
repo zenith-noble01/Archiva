@@ -7,6 +7,7 @@ import { BsFillCalendar2Fill } from "react-icons/bs";
 import { HiMail } from "react-icons/hi";
 import { FaCog } from "react-icons/fa";
 import { GiHospitalCross } from "react-icons/gi";
+import { SidebarProfile } from "../../Components";
 
 const Sidebar = () => {
   return (
@@ -53,6 +54,8 @@ const Sidebar = () => {
             <HiMail />
             Messages
           </NavLink>
+
+          <span>8</span>
         </li>
         <li>
           <NavLink to="/dashboard/settings">
@@ -61,6 +64,8 @@ const Sidebar = () => {
           </NavLink>
         </li>
       </ul>
+
+      <SidebarProfile />
     </div>
   );
 };

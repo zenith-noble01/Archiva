@@ -1,7 +1,7 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./Components";
-import { Home, Login } from "./pages";
+import { Home, Login, DashBoard, DashLanding, Pharmacy } from "./pages";
 
 const App = () => {
   const location = useLocation();
@@ -9,10 +9,14 @@ const App = () => {
 
   return (
     <div className="App">
-      <Navbar pathname={pathname} />
+      {pathname === "dashBoard" ? null : <Navbar pathname={pathname} />}
       <Routes>
         <Route path="/" index element={<Home />} />
         <Route path="login" element={<Login />} />
+        <Route path="dashBoard" element={<DashBoard />}>
+          <Route index element={<DashLanding />} />
+          <Route path="pharmacy" element={<Pharmacy />} />
+        </Route>
       </Routes>
     </div>
   );

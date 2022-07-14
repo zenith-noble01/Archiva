@@ -152,8 +152,11 @@
         justify-content: flex-end;
         width: 100%;
         color: var(--green);
-        &:hover {
-          text-decoration: underline;
+
+        a{
+          &:hover {
+            text-decoration: underline;
+          }
         }
       }
 

@@ -1,0 +1,14 @@
+.app__dashboad {
+  position: relative;
+  background: var(--dark__sm);
+  min-width: 100vw;
+  min-height: 100vh;
+
+  .dashBoard__wrapper {
+    width: calc(100% - 20rem);
+    margin-left: 1rem;
+    background: var(--dark__sm);
+    float: right;
+    min-height: 100vh;
+  }
+}

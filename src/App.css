@@ -4,7 +4,11 @@
   --l__black: #818b9e;
   --light__white: #f1f2f3;
   --trans: 0.3s ease-in-out;
-  --light: #dbdbdb;
+  --light: #f1f1f1;
   --green: #5cbca8;
   --shadow: 0 0 60px #dddcdc;
+  --dark: #171717;
+  --dark__sm: #1e1e1e;
+  --dark__msm: #767676;
+  --dark__blue: #8bc3eb;
 }

@@ -25,7 +25,7 @@ const Navbar = ({ pathname }) => {
               <NavLink to="/About">About</NavLink>
             </li>
             <li>
-              <NavLink to="/Testimonials">Testimonials</NavLink>
+              <NavLink to="/dashBoard">DashBoard</NavLink>
             </li>
             <Link to="/login">
               <Button name="LogIn" />

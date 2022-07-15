@@ -1,0 +1,26 @@
+.outlet__found {
+  color: var(--white);
+  margin-top: 2rem;
+  width: 100%;
+
+  .found__body {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+
+    .found__item {
+      background: var(--dark);
+      padding: 1rem;
+      border-radius: 0.5rem;
+      display: flex;
+      flex-direction: column;
+
+      img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

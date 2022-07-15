@@ -5,12 +5,28 @@
   display: flex;
   flex-direction: column;
 
+  &.sticky {
+    padding: 0;
+
+    .search__header {
+      width: 100%;
+      border-radius: 0;
+      height: 5rem;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+    }
+
+    .found__body {
+      padding: 0 2rem;
+    }
+  }
+
   .search__header {
     transition: var(--trans);
     background: var(--dark);
     border-radius: 10px;
     height: 4rem;
-    overflow: hidden;
 
     .input__container {
       width: 100%;

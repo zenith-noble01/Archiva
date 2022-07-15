@@ -4,5 +4,14 @@ import Button from "./Button/Button";
 import Sidebar from "./Sidebar/Sidebar";
 import Charts from "./Charts/Charts";
 import SidebarProfile from "./SidebarProfile/SidebarProfile";
+import FoundContainer from "./FoundContainer/FoundContainer";
 
-export { Navbar, Lander, Button, Sidebar, SidebarProfile, Charts };
+export {
+  Navbar,
+  Lander,
+  Button,
+  Sidebar,
+  SidebarProfile,
+  Charts,
+  FoundContainer,
+};

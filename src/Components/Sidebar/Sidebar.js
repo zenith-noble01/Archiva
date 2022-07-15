@@ -8,6 +8,7 @@ import { HiMail } from "react-icons/hi";
 import { FaCog } from "react-icons/fa";
 import { GiHospitalCross } from "react-icons/gi";
 import { SidebarProfile } from "../../Components";
+import { SearchOutlined } from "@mui/icons-material";
 
 const Sidebar = () => {
   return (
@@ -27,6 +28,12 @@ const Sidebar = () => {
           <NavLink to="/dashboard/doctors">
             <MdGroups />
             Doctors
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/dashboard/search">
+            <SearchOutlined />
+            search
           </NavLink>
         </li>
         <li>

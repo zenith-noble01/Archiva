@@ -6,7 +6,6 @@ import { Outlet } from "react-router-dom";
 const DashBoard = () => {
   return (
     <div className="app__dashboad">
-      z
       <Sidebar />
       <div className="dashBoard__wrapper">
         <Outlet />

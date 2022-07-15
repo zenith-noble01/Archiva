@@ -8,6 +8,7 @@ import Appointment from "./Appointment/Appointment";
 import Doctors from "./Doctors/Doctors";
 import Messages from "./Messages/Messages";
 import History from "./History/History";
+import Search from "./Search/Search";
 
 export {
   Home,
@@ -20,4 +21,5 @@ export {
   Doctors,
   Messages,
   History,
+  Search,
 };

@@ -12,6 +12,7 @@ import {
   History,
   Messages,
   Settings,
+  Search,
 } from "./pages";
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
           <Route path="history" element={<History />} />
           <Route path="messages" element={<Messages />} />
           <Route path="settings" element={<Settings />} />
+          <Route path="search" element={<Search />} />
         </Route>
       </Routes>
     </div>

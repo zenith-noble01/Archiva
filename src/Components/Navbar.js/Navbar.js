@@ -9,7 +9,7 @@ const Navbar = ({ pathname }) => {
     <div className="app__navbar">
       <div className="nav__left">
         <Link to="/">
-          <img src={logo} />
+          <img src={logo} alt="" />
         </Link>
       </div>
       <div className="nav__right">

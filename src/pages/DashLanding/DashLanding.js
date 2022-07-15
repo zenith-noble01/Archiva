@@ -1,4 +1,5 @@
 import { SearchOutlined } from "@mui/icons-material";
+import { Charts } from "../../Components";
 import "./DashLanding.scss";
 
 const DashLanding = () => {
@@ -10,6 +11,7 @@ const DashLanding = () => {
           <SearchOutlined />
         </div>
       </div>
+      <Charts />
     </div>
   );
 };

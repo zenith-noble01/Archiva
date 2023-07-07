@@ -29,7 +29,7 @@ const Search = () => {
   }, [text]);
 
   console.log(medList);
-
+  ///this is me
   return (
     <div className={`outlet__search ${searchBarPosition}`}>
       <div className="search__header">
